@@ -1,0 +1,4 @@
+.cover__overlay {
+  min-height: 640px;
+  background: rgba(42, 44, 47, .3);
+}

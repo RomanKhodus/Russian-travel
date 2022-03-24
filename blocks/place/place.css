@@ -1,0 +1,15 @@
+.place {
+  margin: 0 auto 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.place:last-child {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+  display: block;
+}
+}

@@ -1,0 +1,20 @@
+.cover {
+  margin-bottom: 92px;
+  width: 100%;
+  color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+    margin: 0 auto 92px;
+  }
+}
+
+
+
+@media all and (max-width: 700px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
+}

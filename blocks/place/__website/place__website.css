@@ -1,0 +1,6 @@
+.place__website {
+  /* display: inline-block; */
+  align-self: flex-end;
+  margin-bottom: 48px;
+  width: calc(100% - 472px);
+}

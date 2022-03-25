@@ -2,5 +2,31 @@
   /* display: inline-block; */
   align-self: flex-end;
   margin-bottom: 48px;
-  width: calc(100% - 472px);
+  width: calc(100% - 500px);
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    width: calc(100% - 472px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: calc(100% - 368px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+    margin: 0 auto 32px;
+  }
 }

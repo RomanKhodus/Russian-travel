@@ -1,4 +1,6 @@
 .cover {
+  display: block;
+  text-decoration: none;
   margin-bottom: 92px;
   width: 100%;
   color: #fff;

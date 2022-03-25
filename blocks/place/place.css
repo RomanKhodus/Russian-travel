@@ -5,10 +5,10 @@
   justify-content: space-between;
 }
 .place:last-child {
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place {
   display: block;
 }

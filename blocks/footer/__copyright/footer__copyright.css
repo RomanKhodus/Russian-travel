@@ -1,5 +1,5 @@
 .footer__copyright {
-  align-items: center;
+  align-self: baseline;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

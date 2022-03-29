@@ -5,18 +5,18 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-  max-width: 928px;
-}
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-  max-width: 720px;
-}
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .places {
-  max-width: 388px;
-}
+    max-width: 388px;
+  }
 }

@@ -8,8 +8,19 @@
   margin: 0 auto 92px;
 }
 
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 0 auto 73px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .place {
-  display: block;
-}
+    display: block;
+    margin: 0 auto 50px;
+  }
+
+  .place:last-child {
+    margin: 0 auto 66px;
+  }
 }

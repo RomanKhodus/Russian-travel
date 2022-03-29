@@ -1,0 +1,9 @@
+.cover__link {
+  display: block;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 243px auto 245px;
+}

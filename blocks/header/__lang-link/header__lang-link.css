@@ -1,5 +1,6 @@
 .header__lang-link {
-  font-family: 'Inter';
+  margin-top: 6px;
+  font-family: "Inter", "Arial";
   color: #fff;
   font-size: 24px;
   line-height: 28px;
@@ -7,9 +8,13 @@
   text-decoration: none;
 }
 
-.header__lang-link:focus {
-  text-decoration: underline;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
+
+/* .header__lang-link:focus {
+  text-decoration: underline;
+} */
 
 .header__lang-link:first-child {
   margin-right: 18px;
@@ -17,7 +22,7 @@
 
 @media all and (max-width: 320px) {
   .header__lang-link {
-  font-size: 18px;
-  line-height: 20px;
-}
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

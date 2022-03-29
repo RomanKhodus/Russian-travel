@@ -1,0 +1,9 @@
+.header__logo_small {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo_small {
+    display: inline-block;
+  }
+}

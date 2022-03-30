@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-width: 740px) {
+  .footer {
+    max-width: calc(100% - 32px);
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer {
     max-width: 388px;

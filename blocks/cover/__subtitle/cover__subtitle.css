@@ -1,8 +1,6 @@
 .cover__subtitle {
   position: relative;
-  top: 245px;
   max-width: 360px;
-  bottom: 05px;
   margin: 0 auto;
   font-family: "Inter", "Arial";
   font-style: normal;
@@ -14,13 +12,11 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    top: 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    top: 115px;
   }
 }
 
@@ -34,6 +30,5 @@
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    top: 33px;
   }
 }

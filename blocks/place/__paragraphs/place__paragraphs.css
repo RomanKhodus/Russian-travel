@@ -10,27 +10,27 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .place__paragraphs {
     width: calc(100% - 368px);
   }
 }
 
-@media screen and (max-width:560px) {
+@media screen and (max-width: 650px) {
   .place__paragraphs {
-    width: calc(100% - 268px);
+    width: 45%;
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 600px) {
   .place__paragraphs {
     width: 100%;
-    margin: 0 auto;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .place__paragraphs {
     max-width: 288px;
+    margin: 0 auto;
   }
 }

@@ -14,8 +14,8 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     grid: repeat(4, 1fr) / repeat(3, 1fr);
-    max-width: 928px;
     gap: 14px;
+    padding: 0 48px 0;
   }
 }
 
@@ -23,22 +23,21 @@
   .photo-grid {
     margin: 0 auto 88px;
     grid: repeat(5, 1fr) / repeat(2, 1fr);
-    max-width: 720px;
     gap: 16px;
+    padding: 0 24px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
     grid: repeat(5, 1fr) / 1fr;
-    max-width: 388px;
     gap: 12px;
+    padding: 0 16px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    max-width: 288px;
     margin: 0 auto 64px;
   }
 }
